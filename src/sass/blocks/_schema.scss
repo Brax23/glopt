@@ -1,0 +1,32 @@
+.schema {
+    padding: 51px 0 30px 0;
+    min-height: 454px;
+    background-color: #f3f3f3;
+    &__wrapper {
+        padding-top: 26px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    &__block {
+        width: 250px;
+        margin: 10px 20px 26px 10px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.43;
+        text-align: center;
+        color: #3a3a3a;
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 6px;
+        }
+        h3 {
+            font-size: 16px;
+            font-weight: bold;
+            color: $main-color;
+            text-align: center;
+        }
+    }
+}

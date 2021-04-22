@@ -1,0 +1,40 @@
+.agent {
+    height: 342px;
+    padding: 58px 0 75px 0;
+    background: url(../../img/agent-bg.jpg) center (center/cover) no-repeat;
+    &_managers {
+        background: url(../../img/managers-bg.jpg) center (center/cover) no-repeat;
+    }
+    &__img {
+        height: 102px;
+        width: 102px;
+        margin: 0 auto;
+        border: solid 1px #fff;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            display: block;
+            padding-bottom: 10px;
+        }
+    }
+    &__title {
+        font-size: 26px;
+        font-weight: bold;
+        line-height: 0.88;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 20px;
+    }
+    &__subtitle {
+        font-size: 19px;
+        font-weight: 300;
+        line-height: 1.42;
+        text-align: center;
+        color: #ffffff;
+        margin: 0 auto;
+        margin-top: 22px;
+        max-width: 984px;
+    }
+}

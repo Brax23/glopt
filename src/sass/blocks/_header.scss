@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__menu {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        li {
+            padding: 0 12px;
+            font-size: 15px;
+            line-height: 15px;
+            border-right: 1px dotted rgba($color: #fff, $alpha: .4);
+            &:last-child {
+                border: none;
+            }
+            a {
+                color: #ffffff;
+                &:hover {
+                    color: #ec644b;
+                }
+            }
+        }
+    }
+    &__right {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__number {
+        text-align: right;
+        margin-bottom: 10px;
+        margin-left: 36px;
+    }
+    &__question {
+        margin-bottom: 5px;
+        font-size: 14px;
+        line-height: 14px;
+        text-align: right;
+        font-weight: 300;
+        color: #ffffff;  
+    }
+    &__tell {
+        font-size: 19px;
+        line-height: 19px;
+        font-weight: bold;
+        text-align: right;
+        color: #ffffff;
+    }
+}
+.hamburger {
+    display: none;
+}

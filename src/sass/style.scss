@@ -1,0 +1,35 @@
+@import 'libs/bootstrap-reboot.min.scss';
+@import 'libs/font.scss';
+@import 'base/variables';
+@import 'libs/slick';
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.promo__wrapper {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+@import 'blocks/buttons.scss';
+@import 'blocks/forms.scss';
+@import 'blocks/header.scss';
+@import 'blocks/promo.scss';
+
+@import 'blocks/titles.scss';
+@import 'blocks/advantages.scss';
+@import 'blocks/description.scss';
+@import 'blocks/agent.scss';
+@import 'blocks/prices.scss';
+@import 'blocks/consultation.scss';
+@import 'blocks/schema';
+@import 'blocks/_feedbacks';
+@import 'blocks/_form';
+@import 'blocks/_footer';
+@import 'base/media';

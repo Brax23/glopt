@@ -1,0 +1,31 @@
+.description {
+    min-height: 619px;
+    padding: 51px 0 57px 0;
+    &__divider {
+        width: 148px;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 17px;
+        border-top: solid 1px $main-color;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 37px;
+    }
+    &__block {
+        max-width: 360px;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.57;
+        text-align: justify;
+        color: #3a3a3a;
+    }
+    &__title {
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        color: $main-color;
+        margin-top: 28px;
+    }
+}

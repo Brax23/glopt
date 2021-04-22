@@ -1,0 +1,61 @@
+.button {
+    display: block;
+    width: 160px;
+    height: 45px;
+    background-color: $main-color;
+    border: none;
+    border-radius: 26px;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffffff;
+    margin:0 0 0 18px;
+    &:hover {
+        background-color: $hover-color;
+    }
+    &_payment {
+        width: 230px;
+        height: 57px;
+        font-size: 15px;
+        // position: absolute;
+        // bottom: 82px;
+        // right: 50%;
+        // transform: translateX(50%);
+        margin: 0 auto;
+    }
+    &_prices {
+        margin: 0 auto;
+    }
+    &_consultation {
+        margin: 0;
+        width: 180px;
+        height: 45px;
+    }
+    &_form {
+        margin: 0 auto;
+        width: 180px;
+        height: 45px;
+
+    }
+}
+.prev {
+    position: absolute;
+    display: block;
+    background-color: #fff;
+    border: none;
+    left: calc(50% - 96px);
+    top: 198px;
+    transform: translate(-50%);
+    z-index: 100;
+}
+.next {
+    position: absolute;
+    display: block;
+    background-color: #fff;
+    border: none;
+    left: calc(50% + 96px);
+    top: 198px;
+    transform: translate(-50%);
+    z-index: 100;
+}

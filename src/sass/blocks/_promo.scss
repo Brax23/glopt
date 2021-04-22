@@ -1,0 +1,84 @@
+
+.promo {
+    position: relative;
+    min-height: 680px;
+    padding: 23px 0 82px 0;
+    background: url(../../img/bg1.jpg) center (center/cover) no-repeat;
+    &__wrapper {
+        padding-top: 10px;
+    }
+    &__global {
+        font-size: 24px;
+        line-height: 24px;
+        font-weight: 300;
+        text-align: center;
+        color: #ffffff;
+        margin: 0;
+    }
+    &__header {
+        font-size: 72px;
+        line-height: 72px;
+        font-weight: 700;
+        font-family: 'Roboto Condensed', sans-serif;
+        // font-stretch: condensed;
+        text-align: center;
+        color: $main-color;
+        margin-top: 26px;
+    }
+    &__subheader {
+        font-size: 42px;
+        font-weight: normal;
+        font-family: 'Roboto Condensed', sans-serif;
+        // font-stretch: condensed;
+        line-height: 42px;
+        text-align: center;
+        color: #ffffff;
+        margin: 9px 0 0 0;
+    }
+    &__line-wrapper {
+        margin-top: 38px;
+        display: flex;
+        padding: 0 156px;
+        justify-content: center;
+        align-items: center;
+    }
+    &__line-left {
+        border-top: 1px solid #ffffff;
+        width: 45%;
+        margin: 0 10px;
+    }
+    &__dot {
+        width: 10px;
+        height: 10px;
+        background-color: #fff;
+        border-radius: 100%;
+    }
+    &__line-rigth {
+        border-top: 1px solid #ffffff;
+        width: 45%;
+        margin: 0 10px;
+    }
+    &__blocks {
+        margin-top: 27px;
+        margin-bottom: 35px;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        div {
+            margin: 0 17px;
+            font-size: 16px;
+            font-weight: 300;
+            text-align: center;
+            color: #ffffff;
+            line-height: 1.38;
+            max-width: 260px;
+
+            img {
+                display: block;
+                margin: 0 auto;
+                margin-bottom: 12px;
+                margin-bottom: 17px;
+            }
+        }
+    }
+}
